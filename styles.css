@@ -1,0 +1,41 @@
+h1 {
+    background: #229954
+}
+.p1 {
+    background: #7B241C;
+    font-size: 20pt;
+    color: green;
+}
+.p2 {
+    background: #A93226;
+    border: 10px solid yellow;
+    border-radius: 5pt;
+    font-size: 24pt
+    margin-botton: 60px;
+    padding-left: 20px
+}
+.p3 {
+    background: #CD6155;
+    font-weight: 900;
+    font-size: 20pt;
+    font-family: Arial;
+}
+
+...
+background - задний фон
+color - цвет шрифта
+font-size - размер шрифта
+font-weight - жирность шрифта (от 100 до 900)
+font-family - семья (стиль, имя) шрифта
+border - рамка;
+    10px - толшина рамки (линии)
+    solid - тип линии
+    yellow - цвет линии
+border-radius - закругление углов рамки
+margin - внешний отступ
+padding - внутренний отступ
+botton - снизу от блока
+left - слева от блока
+right - справа от блока
+top - сверху от блока
+...

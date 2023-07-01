@@ -1,26 +1,77 @@
 h1 {
-    background: #229954
+    background: #D2042D
 }
-.p1 {
-    background: #7B241C;
-    font-size: 20pt;
-    color: green;
+h3 {
+    color: #5D3FD3
 }
-.p2 {
-    background: #A93226;
-    border: 10px solid yellow;
-    border-radius: 5pt;
-    font-size: 24pt
-    margin-botton: 60px;
-    padding-left: 20px
+h4 {
+    color: #FF00FF
 }
-.p3 {
-    background: #CD6155;
-    font-weight: 900;
-    font-size: 20pt;
-    font-family: Arial;
+h6 {
+    background: #FF0000
 }
 
+.p1 {
+    background: #0B5107;
+    font-size: 20pt;
+    font-weight: 100;
+    color: #E5E4E2;
+    font-family: Tahoma;
+    padding-left: 5px;
+    margin-botton: 100px;
+    border: 15px double #89CFF0;
+    border-radius: 0 15px 0 15px;
+}
+.p2 {
+    background: #127C0C;
+    font-size: 18pt;
+    font-weight: 300;
+    color: #C0C0C0;
+    font-family: Roman;
+    padding-left: 15px;
+    margin-botton: 200px;
+    border: 10pt solid #6495ED;
+    border-radius: 10pt;
+}
+.p3 {
+    background: #189D10;
+    font-size: 16pt;
+    font-weight: 500;
+    color: #A9A9A9;
+    font-family: Impact;
+    padding-left: 25px;
+    margin-botton: 300px;
+    border: 10px solid #0000FF;
+    border-radius: 10px;
+}
+.p4 {
+    background: #1DC313;
+    font-size: 14pt;
+    font-weight: 700;
+    color: #71797E;
+    font-family: Arial;
+    padding-left: 35px;
+    margin-botton: 400px;
+    border: 15px inset #e3e3e3;
+}
+.p5 {
+    background: #74F06D;
+    font-size: 12pt;
+    font-weight: 900;
+    color: #36454F;
+    font-family: Comic Sans MS;
+    padding-left: 45px;
+    margin-botton: 500px;
+    border: 15px groove #e3e3e3;
+    }
+
+.p6 {
+    font-size: 24pt;
+    text-align: center;
+    font-style: italic;
+    transform:rotate(5deg);
+
+}
 ...
 background - задний фон
 color - цвет шрифта
@@ -30,6 +81,16 @@ font-family - семья (стиль, имя) шрифта
 border - рамка;
     10px - толшина рамки (линии)
     solid - тип линии
+        none — рамка отсутствует
+        hidden — граница скрыта, но она занимает место
+        dotted — точечная рамка
+        dashed — пунктирная рамка
+        solid — сплошная линия границы
+        double — двойная рамка
+        groove — объёмная рифлёная вдавленная рамка
+        ridge — объёмная рифлёная выпуклая рамка
+        inset — объёмная вдавленная рамка
+        outset — объёмная выпуклая рамка.
     yellow - цвет линии
 border-radius - закругление углов рамки
 margin - внешний отступ
@@ -38,4 +99,13 @@ botton - снизу от блока
 left - слева от блока
 right - справа от блока
 top - сверху от блока
+
+transform:skew(10deg) наклоняет буквы
+
+Доработайте еще один любой параграф (тег <p>…</p>),
+который на вебинаре не был затронут.
+Сделайте так, чтобы текст был наклонным
+и был отцентрирован(располагался по центру).
+Размер шрифта при этом должен равняться 24px.
+Также примените к уже стилизованному тексту тень зеленого цвета.
 ...

@@ -68,7 +68,8 @@ h6 {
     font-size: 24pt;
     text-align: center;
     font-style: italic;
-    transform:rotate(5deg);
+    transform:rotate(2deg);
+    text-shadow:2px 2px 3px green;
 }
 ...
 background - задний фон
@@ -100,4 +101,7 @@ top - сверху от блока
 font-style: italic наклонный
 transform:rotate(5deg) поворачитвает текст
 transform:skew(10deg) наклоняет буквы
+
+Также примените к уже стилизованному тексту
+ тень зеленого цвета.
 ...

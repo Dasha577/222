@@ -20,6 +20,15 @@ class Advertisement(models.Model):
 			)
 		return self.created_at.strftime('%d,%m,%Y')
 
+	@admin.display(description='обновлено')
+	def update_date(self):
+		if self.update_at.date() == timezone.now().date():
+			update_time = self.update_at.time().strftime('%H:%M:%S')
+			return format_html(
+				'<span style="color: blue; font-style:italic;">Сегодня в {}</span>', update_time
+			)
+		return self.update_at.strftime('%d,%m,%Y')
+
 	def __str__(self):
 		return f"Advertisement({self.id}, {self.title}, {self.price}"
 

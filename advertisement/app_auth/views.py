@@ -25,6 +25,8 @@ def logout_view(request):
 	logout(request)
 	return redirect(reverse('login'))
 
+def register_view(request):
+	return render(request, 'app_auth/register.html')
 
 
 # Create your views here.

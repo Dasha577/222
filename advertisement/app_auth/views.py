@@ -19,7 +19,7 @@ def login_view(request):
 	if user is not None:
 		login(request, user)
 		return redirect(reverse('profile'))
-	return render(request, 'app_auth/login.html', {'error': "Такого пользователя нет"})
+	return render(request, 'app_auth/login.html', {'error': "Пользователь не найден"})
 
 def logout_view(request):
 	logout(request)

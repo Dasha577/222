@@ -3,7 +3,7 @@ from django.contrib import admin
 from django.utils.html import format_html
 from django.utils import timezone
 from django.contrib.auth import get_user_model
-
+from django.shortcuts import reverse
 
 User = get_user_model()
 
@@ -48,4 +48,5 @@ class Advertisement(models.Model):
 	class Meta:
 		db_table = "advertisements"
 
-
+	def get_url(self):
+		return reverse('adv-detail', kwargs={'pk': self.pk})
